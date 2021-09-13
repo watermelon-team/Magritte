@@ -56,9 +56,10 @@ body {
 
 
 .button-custom{
-  width: 230px;
-  background-color: var(--orange);
+  /* width: 230px; */
+  /* /background-color: var(--orange); */
   font-weight: 400;
+  border: 3px solid white;
 }
 
 .sfondo{
@@ -119,7 +120,9 @@ body {
   }
 
 .button-custom:hover{
-  background-color: #B64900!important;
+  background-color: black!important;
+  border: 3px solid white;
+  color: white!important;
 }
 
 .profile-picture{
